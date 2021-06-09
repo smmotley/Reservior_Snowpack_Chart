@@ -3818,3 +3818,1168 @@ To register the converters:
 Response HTTP Status Code: 200
 Response HTTP Status Code: 200
 Success! Image Saved
+Current Date And Time Is: 2021-02-20_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-21_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-22_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-23_0605 AM 
+Starting...
+HTTP Request failed
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 43, in main
+    df_FM = reservoir_request("French Meadows", wy)                         # Create df from French Meadows PI data.
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 222, in reservoir_request
+    url=url_flow,
+UnboundLocalError: local variable 'url_flow' referenced before assignment
+Current Date And Time Is: 2021-02-24_1048 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-25_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-26_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-02-27_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 150 rows, received array of length 148
+Current Date And Time Is: 2021-02-28_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 151 rows, received array of length 149
+Current Date And Time Is: 2021-03-01_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 152 rows, received array of length 150
+Current Date And Time Is: 2021-03-02_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 153 rows, received array of length 151
+Current Date And Time Is: 2021-03-03_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 154 rows, received array of length 152
+Current Date And Time Is: 2021-03-04_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 155 rows, received array of length 153
+Current Date And Time Is: 2021-03-05_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 156 rows, received array of length 154
+Current Date And Time Is: 2021-03-06_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 157 rows, received array of length 155
+Current Date And Time Is: 2021-03-07_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 158 rows, received array of length 156
+Current Date And Time Is: 2021-03-08_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Traceback (most recent call last):
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+    main()
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 88, in main
+    how='left').set_index(df_final.index)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
+    len_self=len(self), len_col=len(arrays[-1])
+ValueError: Length mismatch: Expected 159 rows, received array of length 157
+Current Date And Time Is: 2021-03-09_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-10_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-11_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-12_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-13_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-14_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-15_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-16_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-17_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-18_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-19_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-20_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-21_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-22_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-23_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-24_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-25_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-26_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-27_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-28_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-29_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-30_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-03-31_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-01_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-02_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-03_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-04_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-05_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-06_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-07_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-08_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-09_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-10_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-11_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-12_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-13_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-14_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-15_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-16_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-17_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-18_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-19_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-20_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-21_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-22_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-23_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-24_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-25_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-26_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-27_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-28_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-29_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-04-30_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-01_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-02_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-03_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-04_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-06_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-07_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-08_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-09_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-10_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-11_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-13_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-14_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-15_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-16_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-17_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-18_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-20_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-21_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-22_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-23_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-24_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-25_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-26_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-28_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-29_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-30_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-05-31_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-01_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-03_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-04_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-05_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-06_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-07_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-08_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-06-09_0605 AM 
+Starting...
+C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
+
+To register the converters:
+	>>> from pandas.plotting import register_matplotlib_converters
+	>>> register_matplotlib_converters()
+  warnings.warn(msg, FutureWarning)
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved

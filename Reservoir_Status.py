@@ -12,6 +12,7 @@ import pandas as pd
 import pytz
 from datetime import datetime, timedelta
 from PIL import Image, ImageFont, ImageDraw, ImageEnhance
+import platform
 
 # Purpose:
 #       Create a graph showing a combination of reservoir storage and snow-pack in terms to total acre feet.
@@ -36,6 +37,7 @@ def main():
 
     today = datetime.today()                                                # Find the water year.
     wy = today.year
+    this_dir = os.path.dirname(os.path.realpath(__file__))
     if today.month >= 10:                                                   # Advance WY if current month is Oct-Dec.
         wy = today.year + 1
     df_FM = reservoir_request("French Meadows", wy)                         # Create df from French Meadows PI data.
@@ -55,7 +57,7 @@ def main():
     # We are using a excel file to store the normal values form both
     # the reservoir data and the snowdas data. This is used on the
     # graph to display the % of normal.
-    historical_data = 'MFP_Historical_Reservoir_Data.xlsx'
+    historical_data = os.path.join(this_dir,'MFP_Historical_Reservoir_Data.xlsx')
     dfh = pd.read_excel(historical_data, sheet_name='Data')
 
     dfh.Date = pd.to_datetime(dfh.Date)
@@ -78,7 +80,7 @@ def main():
 
     # Remove the nan values before the merge. If we don't do this the naT values
     # within the datetime index will create problems during the merge.
-    df_snow.dropna(axis=0, inplace=True)
+    df_snow = df_snow[df_snow.index.notna()]
 
     df_final = pd.merge(df_final, df_snow['Snowpack'],
                         left_on=[df_final.index.year, df_final.index.month, df_final.index.day],
@@ -275,8 +277,11 @@ def snowpack():
     #     current program will open that file and ingest two sheets. One sheet for Hell Hole and the other for
     #     French Meadows. Each sheet will be placed into a Dataframe, then combined into a single dataframe.
     try:
+        this_dir = os.path.dirname(os.path.realpath(__file__))
         # Create a dataframe out of the French Meadows spreadsheet.
-        file = os.path.join('G:/Energy Marketing/Weather', 'Daily_Output.xlsx')
+        file = os.path.join(os.path.sep,'home','smotley','programs','data','Daily_Output.xlsx')
+        if platform.system() == 'Windows':
+            file = os.path.join('G:/Energy Marketing/Weather', 'Daily_Output.xlsx')
         df1 = pd.read_excel(file, sheet_name='French_Meadows')
         df1.Date = pd.to_datetime(df1.Date)
         df1.set_index(pd.DatetimeIndex(df1.Date), inplace=True)
@@ -439,8 +444,9 @@ def simple_plot(df, dfh, wy):
     ax1.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
     plt.xticks(fontsize=8)
     plt.yticks(fontsize=8)
-
-    imgdir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Images'))
+    imgdir = os.path.join(os.path.sep,'home','smotley','images','weather_email')
+    if platform.system() == "Windows":
+        imgdir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'Images'))
     plt.savefig(os.path.join(imgdir, 'MFP_Combined_Storage.png'))
     return
 
@@ -554,7 +560,8 @@ def sql_create_table(df):
     df = df[~df.index.duplicated()]
     idx = pd.date_range(start='01-01-2004',end=datetime.now())
     df = df.reindex(idx, fill_value = np.NaN)
-    df.drop(['key_0', 'Date_y'], axis=1, inplace=True)
+    df = df[['Date_x', 'TotalAF', 'AveSWE', 'Snowpack', 'AveSWE_HellHole',
+             'AveSWE_SMUD','TotalAF_SMUD','TotalAF_HellHole']]
     df.rename(columns={'Date_x': 'obs_date',
                        'TotalAF': 'TotalAF_FrenchMeadows',
                        'AveSWE': 'AveSWE_FrenchMeadows',
