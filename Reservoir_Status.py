@@ -34,7 +34,7 @@ def main():
     #           TODO: Move SNODAS data from excel format to SQL
     #       4) Merge snowdas dataframe into storage dataframe, merge off of month, day from storage df
     #       5) Send df to plot.
-
+    register_matplotlib_converters()                                        # Requirement for pandas plotting
     today = datetime.today()                                                # Find the water year.
     wy = today.year
     this_dir = os.path.dirname(os.path.realpath(__file__))
@@ -61,6 +61,11 @@ def main():
     dfh = pd.read_excel(historical_data, sheet_name='Data')
 
     dfh.Date = pd.to_datetime(dfh.Date)
+
+    # The year in our spreadsheet is for wy 2021. This will provide an adder so that we don't have to
+    # adjust the spreadsheet every year.
+    wy_adj = wy - dfh.Date.iloc[-1].year
+    dfh.Date = dfh.Date + pd.offsets.DateOffset(years=wy_adj)
 
     dfh.set_index(pd.DatetimeIndex(dfh.Date), inplace=True)
 
