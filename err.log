@@ -1,130 +1,133 @@
-Current Date And Time Is: 2021-09-16_1109 AM 
+Current Date And Time Is: 2021-10-05_0605 AM 
 Starting...
-C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\plotting\_matplotlib\converter.py:103: FutureWarning: Using an implicitly registered datetime converter for a matplotlib plotting method. The converter was registered by pandas on import. Future versions of pandas will require you to explicitly register matplotlib converters.
-
-To register the converters:
-	>>> from pandas.plotting import register_matplotlib_converters
-	>>> register_matplotlib_converters()
-  warnings.warn(msg, FutureWarning)
-U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py:393: RuntimeWarning: invalid value encountered in double_scalars
-  pcnt_normal_snow = int((snowpack_today / dfh['Historical Snowpack'].loc[pcnt_mask].values[-1]) * 100)
 Response HTTP Status Code: 200
 Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-06_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-07_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-08_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-09_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-10_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-11_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-12_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-13_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-14_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-15_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-16_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-17_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-18_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-19_0605 AM 
+Starting...
+Response HTTP Status Code: 503
 Traceback (most recent call last):
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 582, in <module>
     main()
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 90, in main
-    simple_plot(df_final, dfh, wy)
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 393, in simple_plot
-    pcnt_normal_snow = int((snowpack_today / dfh['Historical Snowpack'].loc[pcnt_mask].values[-1]) * 100)
-ValueError: cannot convert float NaN to integer
-Current Date And Time Is: 2021-09-16_1110 AM 
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 43, in main
+    df_FM = reservoir_request("French Meadows", wy)                         # Create df from French Meadows PI data.
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 236, in reservoir_request
+    j = response.json()
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\requests\models.py", line 897, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+Current Date And Time Is: 2021-10-20_0605 AM 
 Starting...
-U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py:393: RuntimeWarning: invalid value encountered in double_scalars
-  pcnt_normal_snow = int((snowpack_today / dfh['Historical Snowpack'].loc[pcnt_mask].values[-1]) * 100)
 Response HTTP Status Code: 200
 Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-21_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-22_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-23_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-24_0605 AM 
+Starting...
+Response HTTP Status Code: 200
+Response HTTP Status Code: 200
+Success! Image Saved
+Current Date And Time Is: 2021-10-25_0605 AM 
+Starting...
 Traceback (most recent call last):
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 582, in <module>
     main()
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 90, in main
-    simple_plot(df_final, dfh, wy)
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 393, in simple_plot
-    pcnt_normal_snow = int((snowpack_today / dfh['Historical Snowpack'].loc[pcnt_mask].values[-1]) * 100)
-ValueError: cannot convert float NaN to integer
-Current Date And Time Is: 2021-09-17_0605 AM 
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 43, in main
+    df_FM = reservoir_request("French Meadows", wy)                         # Create df from French Meadows PI data.
+  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 218, in reservoir_request
+    url_flow = j['Links']['InterpolatedData']
+KeyError: 'Links'
+Current Date And Time Is: 2021-10-26_0605 AM 
 Starting...
 Response HTTP Status Code: 200
 Response HTTP Status Code: 200
 Success! Image Saved
-Current Date And Time Is: 2021-09-18_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-19_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-20_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-21_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-22_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-23_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-24_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-25_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-26_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-27_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-28_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-29_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-09-30_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-10-01_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Traceback (most recent call last):
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 577, in <module>
-    main()
-  File "U:\Documents\Programming\PycharmProjects\Prod\Reservior_Snowpack_Chart\Reservoir_Status.py", line 53, in main
-    how='left').set_index(df_FM.index)
-  File "C:\Users\smotley\AppData\Local\Continuum\anaconda3\envs\Data_Grabber\lib\site-packages\pandas\core\frame.py", line 4442, in set_index
-    len_self=len(self), len_col=len(arrays[-1])
-ValueError: Length mismatch: Expected 4 rows, received array of length 2
-Current Date And Time Is: 2021-10-02_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-10-03_0605 AM 
-Starting...
-Response HTTP Status Code: 200
-Response HTTP Status Code: 200
-Success! Image Saved
-Current Date And Time Is: 2021-10-04_0605 AM 
+Current Date And Time Is: 2021-10-27_0605 AM 
 Starting...
 Response HTTP Status Code: 200
 Response HTTP Status Code: 200

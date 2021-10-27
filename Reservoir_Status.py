@@ -167,6 +167,7 @@ def flow_request(wy):
     except requests.exceptions.RequestException:
         print('HTTP Request failed. Is PI data for ')
 
+
 def reservoir_request(resName,wy):
     # Process:
     #   1) First request: Access the PI interface to get the weblink
@@ -207,28 +208,38 @@ def reservoir_request(resName,wy):
 
     # This first request simply obtains the weblink. This may be overkill, but I still think this is the
     # safer way to go.
-    try:
-        response = requests.get(
-            url="https://flows.pcwa.net/piwebapi/attributes",
-            params={"path": f"\\\\BUSINESSPI2\\OPS\\Reservoirs\\{resName}|Storage",
-                    },
-        )
+    # try:
+    #     response = requests.get(
+    #         url="https://flow.pcwa.net/piwebapi/attributes",
+    #         params={"path": f"\\\\BUSINESSPI2\\OPS\\Reservoirs\\{resName}|Storage",
+    #                 },
+    #         headers={"referer": "https://www.pcwa.net"},
+    #     )
+    #
+    #     j = response.json()
+    #     url_flow = j['Links']['InterpolatedData']
+    # except requests.exceptions.RequestException:
+    #     print('HTTP Request failed')
 
-        j = response.json()
-        url_flow = j['Links']['InterpolatedData']
-    except requests.exceptions.RequestException:
-        print('HTTP Request failed')
+    # A change in the PiWeb server necessitated this change. We now have to find the actual WebID and just use this
+    # as the hard-coded url instead of finding the URL first.
+    webID = {"French Meadows":"F1AbEvXCmerKddk-VtN6YtBmF5AJRk_MVS45BGT9wAMKbY5uQQHGf-gS9WlQUY0roQOBJbQQlVTSU5FU1NQS"
+                              "TJcT1BTXFJFU0VSVk9JUlNcRlJFTkNIIE1FQURPV1N8U1RPUkFHRQ",
+             "Hell Hole": "F1AbEvXCmerKddk-VtN6YtBmF5AKBk_MVS45BGT9wAMKbY5uQTXGf-gS9WlQUY0roQOBJbQQlVTSU5FU1NQS"
+                          "TJcT1BTXFJFU0VSVk9JUlNcSEVMTCBIT0xFfFNUT1JBR0U"}
 
     # Now that we have the url for the PI data, this request is for the actual data. We will
     # download data from the beginning of the water year to the current date. (We can't download data
     # past today's date, if we do we'll get an error.
     try:
         response = requests.get(
-            url=url_flow,
+            #url = url_flow
+            url=f'https://flow.pcwa.net/streams/{webID[resName]}/interpolated',
             params={"startTime": f"{wy - 1}-10-01T00:00:00-07:00",
                     "endTime": datetime.today().strftime("%Y-%m-%dT00:00:00-07:00"),
                     "interval": "1d",
                     },
+            headers={"referer":"https://www.pcwa.net"},
         )
         print('Response HTTP Status Code: {status_code}'.format(status_code=response.status_code))
 
